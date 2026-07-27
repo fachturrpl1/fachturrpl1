@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://wallpapercave.com/wp/wp10475000.png" alt="Header Banner" width="100%" />
+</p>
+
 # 💫 Welcome to My Profile!
 
 <p align="center">
