@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="banner-cropped.png" alt="Header Banner" width="100%" />
-</p>
+<div align="center" style="max-height: 200px; overflow: hidden; border-radius: 10px;">
+  <img src="https://wallpapercave.com/wp/wp10475000.png" alt="Header Banner" width="100%" />
+</div>
 
 # 💫 Welcome to My Profile!
 
