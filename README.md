@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./static/images/banner.jpg" alt="Header Banner" width="100%" />
-</p>
-
 # 💫 Welcome to My Profile!
 
 <p align="center">
