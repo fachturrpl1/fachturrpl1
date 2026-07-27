@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpapercave.com/wp/wp10475000.png" alt="Header Banner" width="100%" height="200" style="object-fit: cover; border-radius: 10px;" />
+  <img src="banner-cropped.png" alt="Header Banner" width="100%" />
 </p>
 
 # 💫 Welcome to My Profile!
