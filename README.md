@@ -7,7 +7,7 @@
 - **Pronouns**: He/Him
 - **About Me**: A passionate tech enthusiast & student from **Brantas Karangkates Vocational High School**. Currently exploring various programming languages, building projects, and staying active offline.
 
-> *"It’s a pleasure to be foung by you! Feel free to look around or reach out."* 👋
+> *"It’s a pleasure to be found by you! Feel free to look around or reach out."* 👋
 
 ---
 
