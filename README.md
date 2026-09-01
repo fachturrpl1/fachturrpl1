@@ -63,3 +63,16 @@
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
 </p>
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default" alt="fachturrpl1 streak stats" />
+  </picture>
+</p>
+
+---
+
