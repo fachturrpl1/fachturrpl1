@@ -8,21 +8,21 @@
 
 > *"It’s a pleasure to be found by you!"* 👋
 
-### About Me :
+### About Me
 - **Education**: Is a student At **Vocational High School Brantas Karangkates**
 - **Working On**:
   - Exploring various programming languages
   - Exploring various stacks
 - **Funfact**: Likes staying active offline 📖
 
-### 🎯 Goal(s) :
+### 🎯 Goal(s)
 
 - ~_Lives happily_ [✔️]~
 - **Building my own portofolio web project [ ]**
 
 ---
 
-## Stacks :
+## Stacks
 
 ### <p align="center">Languages, Frameworks & Libraries</p>
 <p align="center">
@@ -55,7 +55,7 @@
 
 ---
 
-### <p align="center">Connect With Me</p>
+## <p align="center">Connect With Me</p>
 
 <p align="center">
   <a href="mailto:lavelavael@gmail.com">
