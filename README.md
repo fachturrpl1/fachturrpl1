@@ -6,46 +6,59 @@
 
 > *"It’s a pleasure to be found by you!"* 👋
 
-### About Me
+### About Me :
 - **Education**: Is a student At **Vocational High School Brantas Karangkates**
 - **Working On**:
   - Exploring various programming languages
   - Exploring various stacks
 - **Funfact**: Likes staying active offline 📖
 
-### 🎯 Goal(s)
+### 🎯 Goal(s) :
 
 - ~_Lives happily_ [✔️]~
 - **Building my own portofolio web project [ ]**
 
 ---
 
-### 🛠️ Skills
+### Stacks :
 
-| I have | I'm learning | In the memory banks |
-| :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/> <br> <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <br> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/> | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <br> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/> <br> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/> | <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <br> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"/> <br> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/> |
-
----
-
-### 💻 Tools I Use
-
+#### - Languages, Frameworks & Libraries :
 <p>
-  <img src="https://cdn.simpleicons.org/vscodium/007ACC" alt="vscode" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/pycharm/000000/white" alt="pycharm" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/github/181717/white" alt="github" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="javascript" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="typescript" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/python" alt="python" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/dart/0175C2" alt="dart" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/html5/E34F26" alt="html5" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/css/1572B6" alt="css3" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/markdown/000000/FFFFFF" alt="markdown" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/react/61DAFB" alt="react" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/nextdotjs/000000/FFFFFF" alt="nextjs" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" alt="vuejs" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/flask/000000/FFFFFF" alt="flask" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/flutter/02569B" alt="flutter" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="tailwindcss" width="40" height="40"/>
+</p>
+
+#### - Databases, Backend Services, Tools & Runtimes :
+<p>
+  <img src="https://cdn.simpleicons.org/mysql/4479A1/FFFFFF" alt="mysql" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="postgresql" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/supabase/3ECF8E" alt="supabase" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/git/F05032" alt="git" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="nodejs" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/xampp/FB7A24" alt="xampp" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/pycharm/000000/FFFFFF" alt="pycharm" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/github/181717/FFFFFF" alt="github" width="40" height="40"/>
   <img src="https://cdn.simpleicons.org/obsidian/483699" alt="obsidian" width="40" height="40"/>
   <img src="https://cdn.simpleicons.org/postman/FF6C37" alt="postman" width="40" height="40"/>
 </p>
 
----
-
-### 🖥️ Operating Systems I Use
-
+### Operating Systems :
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
-  <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original.svg" alt="ubuntu" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/> 
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a> 
+  <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/ubuntu/E95420" alt="ubuntu" width="40" height="40"/></a>
 </p>
 
 ---
@@ -68,15 +81,16 @@
 
 ---
 
-### In my freetime
+### In My Freetime :
 
 <p>
-  <a href="https://youtube.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/youtube/FF0000" alt="youtube" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
-  <a href="https://discord.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/discord/5865F2" alt="discord" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
-  <a href="https://store.steampowered.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/steam/000000/white" alt="steam" width="40" height="40"/></a>
+  <a href="https://youtube.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/youtube/FF0000" alt="youtube" width="40" height="40"/></a>
+  <a href="https://discord.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/discord/5865F2" alt="discord" width="40" height="40"/></a>
+  <a href="https://store.steampowered.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/steam/000000/FFFFFF" alt="steam" width="40" height="40"/></a>
 </p>
 
-### Connect with Me
+
+### Connect With Me :
 
 <p>
   <a href="mailto:lavelavael@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="gmail" width="40" height="40"/></a>
