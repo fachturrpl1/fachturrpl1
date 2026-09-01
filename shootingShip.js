@@ -1,154 +1,137 @@
-// ==UserScript==
-// @name         GitHub Contribution Shooter
-// @namespace    https://github.com/
-// @version      1.0
-// @description  Pesawat kecil terbang di atas grafik kontribusi GitHub dan "menembaki" kotak-kotaknya (efek visual saja, tidak mengubah data).
-// @author       you
-// @match        https://github.com/*
-// @grant        none
-// ==/UserScript==
+// scripts/generate-svg.js
+// Mengambil data kontribusi GitHub asli (via GraphQL API) lalu men-generate
+// SVG animasi: pesawat terbang menyusuri grid kontribusi dan "menembak"
+// tiap kotak secara berurutan (efek visual, tidak mengubah data kontribusi).
 
-(function () {
-  'use strict';
+const fs = require("fs");
 
-  function findGraphSvg() {
-    // Grafik kontribusi ada di dalam elemen dengan class "js-calendar-graph-svg" atau
-    // container dengan data-testid berbeda tergantung layout GitHub saat ini.
-    return (
-      document.querySelector('.js-calendar-graph-svg') ||
-      document.querySelector('svg.ContributionCalendar-grid') ||
-      document.querySelector('[data-testid="calendar-graph"] svg')
-    );
-  }
+const USERNAME = process.env.GH_USERNAME || process.env.GITHUB_REPOSITORY_OWNER;
+const TOKEN = process.env.GITHUB_TOKEN;
 
-  function getCells(svg) {
-    // Setiap kotak kontribusi biasanya <rect> atau <td> tergantung versi GitHub.
-    let cells = Array.from(svg.querySelectorAll('rect.ContributionCalendar-day'));
-    if (cells.length === 0) {
-      cells = Array.from(svg.querySelectorAll('rect'));
-    }
-    return cells;
-  }
+if (!USERNAME || !TOKEN) {
+  console.error("GH_USERNAME / GITHUB_TOKEN tidak ditemukan di environment.");
+  process.exit(1);
+}
 
-  function init() {
-    const svg = findGraphSvg();
-    if (!svg) return; // bukan halaman profil, atau grafik belum termuat
-
-    const cells = getCells(svg);
-    if (cells.length === 0) return;
-
-    const container = svg.closest('div') || svg.parentElement;
-    if (getComputedStyle(container).position === 'static') {
-      container.style.position = 'relative';
-    }
-
-    // Buat layer overlay untuk pesawat + efek tembakan
-    const overlay = document.createElement('div');
-    overlay.style.position = 'absolute';
-    overlay.style.top = '0';
-    overlay.style.left = '0';
-    overlay.style.width = '100%';
-    overlay.style.height = '100%';
-    overlay.style.pointerEvents = 'none';
-    overlay.style.zIndex = '9999';
-    container.appendChild(overlay);
-
-    const plane = document.createElement('div');
-    plane.textContent = '✈️';
-    plane.style.position = 'absolute';
-    plane.style.fontSize = '18px';
-    plane.style.transition = 'left 0.35s linear, top 0.35s linear';
-    plane.style.transform = 'translate(-50%, -50%) rotate(90deg)';
-    overlay.appendChild(plane);
-
-    const containerRect = () => container.getBoundingClientRect();
-
-    function cellCenter(cell) {
-      const r = cell.getBoundingClientRect();
-      const c = containerRect();
-      return {
-        x: r.left - c.left + r.width / 2,
-        y: r.top - c.top + r.height / 2,
-      };
-    }
-
-    function shootAt(cell) {
-      const { x, y } = cellCenter(cell);
-
-      // gerakkan pesawat ke atas target
-      plane.style.left = x + 'px';
-      plane.style.top = (y - 20) + 'px';
-
-      setTimeout(() => {
-        // efek "peluru"
-        const bullet = document.createElement('div');
-        bullet.style.position = 'absolute';
-        bullet.style.left = x + 'px';
-        bullet.style.top = (y - 18) + 'px';
-        bullet.style.width = '3px';
-        bullet.style.height = '8px';
-        bullet.style.background = '#ffdd55';
-        bullet.style.borderRadius = '2px';
-        bullet.style.transition = 'top 0.15s linear';
-        overlay.appendChild(bullet);
-
-        requestAnimationFrame(() => {
-          bullet.style.top = y + 'px';
-        });
-
-        setTimeout(() => {
-          bullet.remove();
-
-          // efek ledakan pada kotak
-          const originalFill = cell.getAttribute('fill');
-          const originalStyle = cell.style.filter;
-          cell.style.filter = 'brightness(3) drop-shadow(0 0 4px orange)';
-          if (originalFill) cell.setAttribute('fill', '#ff5500');
-
-          const boom = document.createElement('div');
-          boom.textContent = '💥';
-          boom.style.position = 'absolute';
-          boom.style.left = x + 'px';
-          boom.style.top = y + 'px';
-          boom.style.fontSize = '14px';
-          boom.style.transform = 'translate(-50%, -50%)';
-          overlay.appendChild(boom);
-
-          setTimeout(() => {
-            boom.remove();
-            cell.style.filter = originalStyle;
-            if (originalFill) cell.setAttribute('fill', originalFill);
-          }, 200);
-        }, 150);
-      }, 300);
-    }
-
-    let i = 0;
-    // tembak kotak secara berurutan (bisa juga diacak dengan cells.sort(()=>Math.random()-0.5))
-    const interval = setInterval(() => {
-      if (i >= cells.length) {
-        clearInterval(interval);
-        setTimeout(() => overlay.remove(), 1000);
-        return;
+const QUERY = `
+  query ($login: String!) {
+    user(login: $login) {
+      contributionsCollection {
+        contributionCalendar {
+          weeks {
+            contributionDays {
+              date
+              contributionCount
+              color
+            }
+          }
+        }
       }
-      shootAt(cells[i]);
-      i++;
-    }, 400);
+    }
+  }
+`;
+
+async function fetchContributions() {
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      Authorization: `bearer ${TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query: QUERY, variables: { login: USERNAME } }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`GitHub API error: ${res.status} ${await res.text()}`);
   }
 
-  // Tunggu grafik kontribusi selesai dimuat (kadang dimuat via AJAX)
-  const observer = new MutationObserver(() => {
-    if (findGraphSvg()) {
-      observer.disconnect();
-      setTimeout(init, 500);
-    }
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
+  const json = await res.json();
+  if (json.errors) {
+    throw new Error(JSON.stringify(json.errors));
+  }
+  return json.data.user.contributionsCollection.contributionCalendar.weeks;
+}
 
-  // fallback jika sudah ada saat load
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      if (findGraphSvg()) init();
-    }, 1000);
+function buildSvg(weeks) {
+  const CELL = 11;
+  const GAP = 3;
+  const STEP = CELL + GAP;
+  const PADDING_TOP = 30;
+  const PADDING_LEFT = 10;
+
+  const numWeeks = weeks.length;
+  const width = PADDING_LEFT * 2 + numWeeks * STEP;
+  const height = PADDING_TOP + 7 * STEP + 10;
+
+  // Kumpulkan semua hari dengan koordinat grid-nya
+  const days = [];
+  weeks.forEach((week, wi) => {
+    week.contributionDays.forEach((day, di) => {
+      days.push({
+        ...day,
+        x: PADDING_LEFT + wi * STEP,
+        y: PADDING_TOP + di * STEP,
+      });
+    });
   });
+
+  const totalDays = days.length;
+  const TOTAL_DURATION = Math.max(totalDays * 0.06, 4); // detik, minimal 4s
+  const perStep = TOTAL_DURATION / totalDays;
+
+  // Path pesawat: melintasi tiap kotak berurutan (kiri->kanan, atas->bawah per minggu)
+  const pathPoints = days.map((d) => `${d.x + CELL / 2},${d.y + CELL / 2 - 8}`);
+  const motionPath = `M${pathPoints.join(" L")}`;
+
+  // Rects kotak kontribusi
+  const rects = days
+    .map((d) => {
+      return `<rect x="${d.x}" y="${d.y}" width="${CELL}" height="${CELL}" rx="2" ry="2" fill="${d.color}" stroke="rgba(255,255,255,0.04)" />`;
+    })
+    .join("\n");
+
+  // Efek "ledakan" tiap kotak, muncul terurut sesuai waktu pesawat lewat
+  const explosions = days
+    .map((d, i) => {
+      const begin = (i * perStep).toFixed(3);
+      return `
+        <circle cx="${d.x + CELL / 2}" cy="${d.y + CELL / 2}" r="1" fill="#ffb703" opacity="0">
+          <animate attributeName="r" values="1;9;1" dur="0.28s" begin="${begin}s" fill="freeze" />
+          <animate attributeName="opacity" values="0;0.9;0" dur="0.28s" begin="${begin}s" fill="freeze" />
+        </circle>`;
+    })
+    .join("\n");
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="Segoe UI, sans-serif">
+  <rect x="0" y="0" width="${width}" height="${height}" fill="#0d1117" rx="6" />
+  <text x="${PADDING_LEFT}" y="16" fill="#c9d1d9" font-size="12">${USERNAME}'s contributions — under attack ✈️</text>
+
+  <g>
+${rects}
+  </g>
+
+  <g>
+${explosions}
+  </g>
+
+  <text font-size="14" transform="rotate(90)">
+    <animateMotion dur="${TOTAL_DURATION}s" repeatCount="indefinite" path="${motionPath}" rotate="auto" />
+    ✈
+  </text>
+</svg>`;
+
+  return svg;
+}
+
+(async () => {
+  try {
+    const weeks = await fetchContributions();
+    const svg = buildSvg(weeks);
+    fs.mkdirSync("dist", { recursive: true });
+    fs.writeFileSync("dist/contribution-shooter.svg", svg, "utf-8");
+    console.log("SVG berhasil dibuat: dist/contribution-shooter.svg");
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
 })();
