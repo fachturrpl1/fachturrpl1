@@ -77,3 +77,9 @@
 </p>
 
 ---
+
+### 👾 Incase You're Bored
+
+![My GitHub Game](game.gif)
+
+---
