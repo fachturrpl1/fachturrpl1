@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0545,50:6B2FA0,100:B845ED&height=150&section=header&text=Welcome%20to%20Fachtur's%20Profile!&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
+
 # 💫 Welcome to My Profile!
 
 <p align="center">
