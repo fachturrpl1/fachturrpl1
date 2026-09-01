@@ -1,6 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0545,50:6B2FA0,100:B845ED&height=150&section=header&text=Welcome%20to%20Fachtur's%20Profile!&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
-
-# 💫 Welcome to My Profile!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0545,50:6B2FA0,100:B845ED&height=150&section=header&text=💫%20Welcome%20to%20My%20Profile!&fontSize=30&fontColor=ffffff&animation=fadeIn" width="100%" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&width=435&lines=Hi+there!+I'm+Fachtur+%F0%9F%90%A7;Student+%26+Tech+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" />
