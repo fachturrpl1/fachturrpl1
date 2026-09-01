@@ -78,3 +78,6 @@
 
 ---
 
+### 👾 In Case You Are Bored
+
+![Contribution Shooter](./dist/contribution-shooter.svg)
