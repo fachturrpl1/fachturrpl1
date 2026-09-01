@@ -17,7 +17,7 @@
   <a href="mailto:lavelavael@gmail.com">
     <img src="https://img.shields.io/badge/Email-lavelavael%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://discord.com">
+  <a href="https://discord.com/users/1285224250764034058">
     <img src="https://img.shields.io/badge/Discord-lavelavaelrav31__95375-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
   <a href="https://instagram.com/fchtrrvel">
@@ -60,8 +60,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  <a href="https://discord.com/users/1285224250764034058">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-  </a>
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
 </p>
