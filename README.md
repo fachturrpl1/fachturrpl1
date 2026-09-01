@@ -31,11 +31,11 @@
 ### 💻 Tools I Use
 
 <p>
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+  <img src="https://cdn.simpleicons.org/vscodium/007ACC" alt="vscode" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/pycharm/000000/white" alt="pycharm" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/github/181717/white" alt="github" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/obsidian/483699" alt="obsidian" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/postman/FF6C37" alt="postman" width="40" height="40"/>
 </p>
 
 ---
@@ -43,18 +43,9 @@
 ### 🖥️ Operating Systems I Use
 
 <p>
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-</p>
-
----
-
-### 📺 In my freetime
-
-<p>
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
+  <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original.svg" alt="ubuntu" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
 </p>
 
 ---
@@ -77,19 +68,18 @@
 
 ---
 
-### 📬 Connect with Me
+### In my freetime
 
 <p>
-  <a href="mailto:lavelavael@gmail.com">
-    <img src="https://img.shields.io/badge/Email-lavelavael%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://discord.com/users/1285224250764034058">
-    <img src="https://img.shields.io/badge/Discord-lavelavaelrav31__95375-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://instagram.com/fchtrrvel">
-    <img src="https://img.shields.io/badge/Instagram-fchtrrvel-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
+  <a href="https://youtube.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/youtube/FF0000" alt="youtube" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
+  <a href="https://discord.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/discord/5865F2" alt="discord" width="40" height="40" style="background-color: white; border-radius: 8px; padding: 4px;"/></a>
+  <a href="https://store.steampowered.com" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/steam/000000/white" alt="steam" width="40" height="40"/></a>
 </p>
 
----
+### Connect with Me
 
+<p>
+  <a href="mailto:lavelavael@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="gmail" width="40" height="40"/></a>
+  <a href="https://discord.com/users/1285224250764034058"><img src="https://cdn.simpleicons.org/discord/5865F2" alt="discord" width="40" height="40"/></a>
+  <a href="https://instagram.com/fchtrrvel"><img src="https://cdn.simpleicons.org/instagram/E4405F" alt="instagram" width="40" height="40"/></a>
+</p>
