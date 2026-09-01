@@ -70,9 +70,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=dark&hide_border=true&background=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default&hide_border=true&background=00000000" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default&hide_border=true&background=00000000" alt="fachturrpl1 streak stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=dark&hide_border=true&background=00000000&ring=B845ED&fire=B845ED&currStreakNum=B845ED&currStreakLabel=B845ED&sideNums=FFFFFF&statNames=B845ED&dates=999999" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default&hide_border=true&background=00000000&ring=6B2FA0&fire=6B2FA0&currStreakNum=6B2FA0&currStreakLabel=6B2FA0&sideNums=333333&statNames=6B2FA0&dates=666666" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fachturrpl1&theme=default&hide_border=true&background=00000000&ring=6B2FA0&fire=6B2FA0&currStreakNum=6B2FA0&currStreakLabel=6B2FA0&sideNums=333333&statNames=6B2FA0&dates=666666" alt="fachturrpl1 streak stats" />
   </picture>
 </p>
 
