@@ -24,18 +24,18 @@
 
 ## Stacks :
 
-### - Languages, Frameworks & Libraries
-<p>
+### <p align="center">Languages, Frameworks & Libraries</p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,dart,react,nextjs,vue,flutter,tailwind" />
 </p>
 
-### - Databases, Backend Services, Tools & Runtimes
-<p>
+### <p align="center">Databases, Backend Services, Tools & Runtimes</p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,git,nodejs,vscode,pycharm,github,postman" />
 </p>
 
-### Operating Systems
-<p>
+### <p align="center">Operating Systems</p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=windows,linux,ubuntu" />
 </p>
 
@@ -55,9 +55,9 @@
 
 ---
 
-### Connect With Me :
+### <p align="center">Connect With Me</p>
 
-<p>
+<p align="center">
   <a href="mailto:lavelavael@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" alt="gmail" />
   </a>
@@ -68,8 +68,6 @@
     <img src="https://skillicons.dev/icons?i=instagram" alt="instagram" />
   </a>
 </p>
-
----
 
 <p align="center">
   <sub>Profile by <a href="https://github.com/fachturrpl1">fachturrpl1</a></sub>
