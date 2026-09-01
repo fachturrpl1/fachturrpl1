@@ -4,26 +4,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&width=435&lines=Hi+there!+I'm+Fachtur+%F0%9F%90%A7;Student+%26+Tech+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" />
 </p>
 
-- **Pronouns**: He/Him
-- **About Me**: A passionate tech enthusiast & student from **Brantas Karangkates Vocational High School**. Currently exploring various programming languages, building projects, and staying active offline.
+> *"It’s a pleasure to be found by you!"* 👋
 
-> *"It’s a pleasure to be found by you! Feel free to look around or reach out."* 👋
+### About Me
+- **Education**: Is a student At **Vocational High School Brantas Karangkates**
+- **Working On**:
+  - Exploring various programming languages
+  - Exploring various stacks
+- **Funfact**: Likes staying active offline 📖
 
----
+### 🎯 Goal(s)
 
-### 📬 Connect with Me
-
-<p>
-  <a href="mailto:lavelavael@gmail.com">
-    <img src="https://img.shields.io/badge/Email-lavelavael%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://discord.com/users/1285224250764034058">
-    <img src="https://img.shields.io/badge/Discord-lavelavaelrav31__95375-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://instagram.com/fchtrrvel">
-    <img src="https://img.shields.io/badge/Instagram-fchtrrvel-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-</p>
+- ~_Lives happily_ [✔️]~
+- **Building my own portofolio web project [ ]**
 
 ---
 
@@ -83,3 +76,20 @@
 ![My GitHub Game](game.gif)
 
 ---
+
+### 📬 Connect with Me
+
+<p>
+  <a href="mailto:lavelavael@gmail.com">
+    <img src="https://img.shields.io/badge/Email-lavelavael%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://discord.com/users/1285224250764034058">
+    <img src="https://img.shields.io/badge/Discord-lavelavaelrav31__95375-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <a href="https://instagram.com/fchtrrvel">
+    <img src="https://img.shields.io/badge/Instagram-fchtrrvel-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+</p>
+
+---
+
