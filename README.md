@@ -4,6 +4,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F7F7F7&width=435&lines=Hi+there!+I'm+Fachtur+%F0%9F%90%A7;Student+%26+Tech+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" />
 </p>
 
+<p align="center">
+  <a href="#about-me">About Me</a> •
+  <a href="#stacks">Stacks</a> •
+  <a href="#github-stats">GitHub Stats</a> •
+  <a href="#connect-with-me">Connect</a>
+</p>
+
 ---
 
 > *"It’s a pleasure to be found by you!"* 👋
