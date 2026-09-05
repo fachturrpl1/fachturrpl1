@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="#about-me">About Me</a> •
-  <a href="#stacks">Stacks</a> •
-  <a href="#github-stats">GitHub Stats</a> •
-  <a href="#connect-with-me">Connect</a>
+   |
+  <a href="#about-me">About Me</a> |
+  <a href="#stacks">Stacks</a> |
+  <a href="#github-stats">GitHub Stats</a> |
+  <a href="#connect-with-me">Connect</a> |
 </p>
 
 ---
