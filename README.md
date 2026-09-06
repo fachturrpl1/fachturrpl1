@@ -39,7 +39,7 @@
 
 ### <p align="center">Databases, Backend Services, Tools & Runtimes</p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,git,nodejs,vscode,github,postman" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,docker,git,nodejs,vscode,github,postman" />
 </p>
 
 ### <p align="center">Operating Systems</p>
