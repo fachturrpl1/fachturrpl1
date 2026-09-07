@@ -37,15 +37,21 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,dart,md,react,nextjs,vue,flutter,tailwind&perline=6" />
 </p>
 
+##
+
 ### <p align="center">Databases, Cloud & Backend Services</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,nodejs,vercel,docker&perline=6" />
 </p>
 
+##
+
 ### <p align="center">Tools, Platforms & Productivity Software</p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,npm,vscode,postman,figma,obsidian&perline=7" />
 </p>
+
+##
 
 ### <p align="center">Operating Systems</p>
 <p align="center">
