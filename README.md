@@ -34,7 +34,7 @@
 
 ### <p align="center">Languages, Frameworks & Libraries</p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,dart,md,react,nextjs,vue,flutter,tailwind&perline=6" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,dart,md,react,nextjs,vue,flutter,tailwind" />
 </p>
 
 ##
