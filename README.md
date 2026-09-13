@@ -55,7 +55,7 @@
 
 ### <p align="center">Operating Systems</p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=windows,linux,ubuntu" />
+  <img src="https://skillicons.dev/icons?i=windows,ubuntu" />
 </p>
 
 ---
