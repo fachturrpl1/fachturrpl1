@@ -87,7 +87,3 @@
     <img src="https://skillicons.dev/icons?i=instagram" alt="instagram" />
   </a>
 </p>
-
-<p align="center">
-  <sub>Profile by <a href="https://github.com/fachturrpl1">fachturrpl1</a></sub>
-</p>
