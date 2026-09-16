@@ -26,7 +26,7 @@
 ### 🎯 Goal(s)
 
 - [x] ~_Lives happily_~
-- [ ]**Building my own portofolio web project**
+- [ ] **Building my own portofolio web project**
 
 ---
 
